@@ -89,7 +89,6 @@ export const TaskItem: React.FC<TaskItemProps> = props => {
             break;
           }
         }
-        e.stopPropagation();
       }}
       onMouseEnter={e => {
         onEventStart("mouseenter", task, e);
